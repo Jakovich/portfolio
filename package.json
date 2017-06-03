@@ -1,15 +1,13 @@
 {
-  "name": "project-start",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "author": "Nadia Pillard",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Jakovich/project-start.git"
+    "url": "https://github.com/Jakovich/portfolio.git"
   },
-  "bugs": {
-    "url": "https://github.com/Jakovich/project-start/issues"
-  },
+  
   "devDependencies": {
     "autoprefixer": "^6.3.6",
     "browser-sync": "2.11.1",
@@ -19,6 +17,7 @@
     "gulp-contrib-copy": "^0.1.2",
     "gulp-csso": "^2.0.0",
     "gulp-filter": "^5.0.0",
+    "gulp-gh-pages": "^0.5.4",
     "gulp-imagemin": "^3.1.1",
     "gulp-less": "^3.1.0",
     "gulp-plumber": "^1.1.0",

@@ -18,6 +18,7 @@ var path = require('path');
 var imagemin = require("gulp-imagemin");
 var spritesmith = require("gulp.spritesmith");
 var pug = require('gulp-pug');
+var deploy = require('gulp-gh-pages');
 
 
 gulp.task('html', function buildHTML() {
@@ -102,12 +103,17 @@ gulp.task('sprite-svg-inline', function() {
 });
 
 gulp.task("image-min", function() {
-    return gulp.src("img/**/*.{png,jpg,gif")
+    return gulp.src("img/**/*.{png,jpg,gif}")
         .pipe(imagemin({
             optimizationLevel: 3,
             progressive: true
         }))
         .pipe(gulp.dest("build/img"));
+});
+
+gulp.task("deploy", function () {
+  return gulp.src("build/**/*")
+    .pipe(deploy())
 });
 
 gulp.task('svg-min', function() {
@@ -140,6 +146,12 @@ gulp.task("copy-vendor", function() {
     gulp.src("vendor/**/*")
         .pipe(copy())
         .pipe(gulp.dest("build/vendor"));
+    gulp.src("bower_components/bootstrap/dist/**/*")
+        .pipe(copy())
+        .pipe(gulp.dest("build/vendor/bootstrap"));
+    gulp.src("bower_components/jquery/dist/jquery.min.js")
+        .pipe(copy())
+        .pipe(gulp.dest("build/vendor/jquery"));
 });
 
 gulp.task("copy-fonts", function() {
