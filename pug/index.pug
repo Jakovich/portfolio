@@ -6,11 +6,16 @@ html
   
   body
     include includes/main-header.pug  
+    include includes/intro.pug  
     //Main content
-  
+    include includes/projects.pug
+    .container
+      include includes/carousel.pug
+    
     include includes/main-footer.pug
-    script(src="vendor/bootstrap/js/bootstrap.min.js")
     script(src="vendor/jquery/jquery.min.js")
+    script(src="vendor/bootstrap/js/bootstrap.min.js")
+    
     
   
 
