@@ -152,6 +152,9 @@ gulp.task("copy-vendor", function() {
     gulp.src("bower_components/jquery/dist/jquery.min.js")
         .pipe(copy())
         .pipe(gulp.dest("build/vendor/jquery"));
+    gulp.src("css/**/*")
+        .pipe(copy())
+        .pipe(gulp.dest("build/css"));
 });
 
 gulp.task("copy-fonts", function() {

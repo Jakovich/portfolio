@@ -1,7 +1,67 @@
-// В этом файле должны быть стили только для БЭМ-блока carousel, его элементов, 
+// В этом файле должны быть стили только для БЭМ-блока carousel, его элементов,
 // модификаторов, псевдоселекторов, псевдоэлементов, @media-условий...
 // Не пишите здесь другие селекторы.
 
-.carousel {
-  
+.carousel-inner__text {
+
+  color: #ffffff;
+  min-height: 400px;
+  padding: 40px 17%;
+
+  p {
+    font-size: 20px;
+
+  }
+}
+
+p.carousel-inner__caption {
+  padding-top: 50px;
+  font-size: 16px;
+  a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    &:hover {
+      text-decoration: none;
+      opacity: 0.8;
+    }
+  }
+}
+
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none;
+}
+
+.carousel-caption {
+  padding-bottom: 60px;
+  a {
+    color: #ffffff;
+    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+      opacity: 0.8;
+    }
+  }
+}
+
+.carousel-control span.glyphicon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-top: -20px;
+}
+
+
+
+@media(max-width:600px) {
+  .carousel-inner__text {
+    min-height: 650px;
+  }
+  .carousel-inner__text p {
+    font-size: 16px;
+  }
+  p.carousel-inner__caption {
+    padding-top: 20px;
+  }
 }
