@@ -1,3 +1,13 @@
-.wufoo input.text {
-  padding: 15px!important;
+.wufoo input.text,
+.wufoo textarea.textarea {
+  padding: 10px;
+  box-shadow: none;
+  border: 1px solid @gray;
+  outline: none;
+  border-radius: 4px;
+  background: none;
+}
+
+.wufoo label.desc {
+  font-size: 16px;
 }
