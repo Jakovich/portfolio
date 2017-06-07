@@ -40,6 +40,7 @@ form.wufoo ul {
     border: 2px solid #e36c0a;
     font-size: 20px;
     transition: all 0.3s ease;
+    cursor: pointer;
 }
 
 #saveForm:hover {
@@ -51,6 +52,17 @@ form.wufoo ul {
     text-align: center;
     color: #2B3037;
     margin-top: 40px;
+    position: relative;
+}
+
+.wufoo .info h2::after {
+  position: absolute;
+  content: '';
+  height: 2px;
+  left: 35%;
+  right: 35%;
+  bottom: -10px;
+  background-color: @orange;
 }
 
 .wufoo .info div {
@@ -62,4 +74,5 @@ form.wufoo ul {
 
 .wufoo .info {
   margin-bottom: 40px;
+  border-bottom: none;
 }
