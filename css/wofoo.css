@@ -11,13 +11,21 @@
     background: none;
     font-family: 'Scada', Arial, sans-serif;
     width: 100%;
-    max-width: 500px;
     min-width: auto;
+}
+
+form.wufoo ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .wufoo label.desc {
     font-size: 16px;
     font-family: 'Scada', Arial, sans-serif;
+    font-weight: normal;
 }
 
 .wufoo li.focused {
@@ -49,4 +57,9 @@
     text-align: center;
     font-size: 18px;
     color: #2B3037;
+    margin-bottom:
+}
+
+.wufoo .info {
+  margin-bottom: 40px;
 }
