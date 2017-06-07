@@ -1,12 +1,18 @@
+.wufoo {
+  font-family: 'Scada', Arial, sans-serif;
+}
+
 .wufoo input.text,
 .wufoo textarea.textarea {
   padding: 10px;
   box-shadow: none;
-  border: 1px solid @gray;
+  border: 1px solid #2B3037;
   outline: none;
   border-radius: 4px;
   background: none;
   font-family: 'Scada', Arial, sans-serif;
+  width: 100%;
+  max-width: 500px;
 }
 
 .wufoo label.desc {
