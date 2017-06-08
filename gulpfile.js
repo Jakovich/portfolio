@@ -164,7 +164,7 @@ gulp.task("copy-fonts", function() {
 });
 
 gulp.task("min-js", function() {
-    gulp.src("js/**/*.js")
+    gulp.src("scripts/**/*.js")
         .pipe(plumber())
         .pipe(gulp.dest("build/js/"))
         .pipe(uglify())
@@ -172,7 +172,7 @@ gulp.task("min-js", function() {
             path.basename += ".min";
             path.extname = ".js"
         }))
-        .pipe(gulp.dest("build/js/"));
+        .pipe(gulp.dest("build/scripts/"));
 });
 
 gulp.task("clean", function() {
@@ -196,7 +196,7 @@ gulp.task("show", function() {
     gulp.watch("pug/**/*.pug", ["html"]).on("change", server.reload);
     gulp.watch("img/**/*.{png,jpg,gif}", ["image"]).on("change", server.reload);
     //gulp.watch("img/sprites/*.{png,svg}", ["copy-sprite"]).on("change", server.reload);
-    gulp.watch("js/**/*.js", ["min-js"]).on("change", server.reload);
+    gulp.watch("scripts/**/*.js", ["min-js"]).on("change", server.reload);
     gulp.watch("vendor/**/*.js", ["copy-vendor"]).on("change", server.reload);
     gulp.watch("fonts/**/*", ["copy-fonts"]).on("change", server.reload);
 });
