@@ -425,6 +425,14 @@ img {
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #000000;
 }
+@media (max-width: 1200px) {
+  .main-header {
+    background-color: gray;
+  }
+  .main-header--dark {
+    background-color: #2B3037;
+  }
+}
 .intro {
   background-image: url('../img/bg_2.jpg');
   background-position: center;
@@ -438,6 +446,12 @@ img {
   font-size: 40px;
   display: block;
   margin-top: 10px;
+}
+.about__text {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .projects {
   padding: 50px 0;
@@ -562,6 +576,33 @@ p.carousel-inner__caption a:hover {
   right: 35%;
   bottom: -10px;
   background-color: #e36c0a;
+}
+.section-title {
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+  margin: 20px 0;
+  margin-top: 45px;
+}
+.section-title::after {
+  position: absolute;
+  content: '';
+  height: 2px;
+  left: 35%;
+  right: 35%;
+  bottom: -10px;
+  background-color: #e36c0a;
+}
+.section-title--dark {
+  color: #000000;
+}
+.section-title--big {
+  font-size: 40px;
+  margin-bottom: 80px;
+}
+.section-title--big::after {
+  left: 15%;
+  right: 15%;
 }
 .wufoo input.text {
   padding: 15px!important;

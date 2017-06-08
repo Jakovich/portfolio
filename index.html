@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Scada:400,400i,700,700i&amp;amp;subset=cyrillic" rel="stylesheet">
+    <script src="https://use.fontawesome.com/cca8e46c6a.js"></script>
     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
@@ -21,9 +22,9 @@
           </div>
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">About</a></li>
-              <li><a href="#">Projects</a></li>
-              <li><a href="#">Témoignage</a></li>
+              <li><a href="#">Mon profil</a></li>
+              <li><a href="#">Examples des projets</a></li>
+              <li><a href="#">Témoignage de clients</a></li>
               <li><a href="#">Contactez-moi</a></li>
             </ul>
           </div>
@@ -38,13 +39,17 @@
     <!--about-->
     <div class="about">
       <div class="container">
-        <h2 class="about__title">Qui suis-je</h2>
+        <h2 class="section-title section-title--dark">Mon profil</h2>
+        <div class="about__text">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="about__img"><img src="img/profil.jpg"></div>
       </div>
     </div>
     <!--projects-->
     <section class="projects">
       <div class="container">
-        <h1 class="projects__title">Exemples de projets</h1>
+        <h1 class="section-title section-title--dark section-title--big">Exemples de projets</h1>
         <div class="projects__item">
           <div class="row">
             <div class="col-md-5">
@@ -243,7 +248,7 @@
     </section>
     <div class="feedback">
       <div class="container">
-        <h2 class="feedback__title">Témoignage de clients</h2>
+        <h2 class="section-title">Témoignage de clients</h2>
         <div class="carousel slide" id="carousel-feedback" data-ride="carousel"> 
           <ol class="carousel-indicators">
             <li class="active" data-target="#carousel-feedback" data-slide-to="0"></li>
@@ -287,10 +292,16 @@
     <footer class="main-footer">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-8">
             <ul class="main-footer__contacts"> 
-              <li><a class="main-footer__link" href="mailto:nadege.pillard@gmail.com"><span class="glyphicon glyphicon-envelope" aria-hidden="true"> </span>nadege.pillard@gmail.com</a></li>
-              <li><a class="main-footer__link" href="#"><span class="glyphicon glyphicon-earphone" aria-hidden="true"> </span>06 17 08 79 21</a></li>
+              <li><a class="main-footer__link" href="mailto:nadege.pillard@gmail.com"><span class="fa fa-envelope" aria-hidden="true"> </span>nadege.pillard@gmail.com</a></li>
+              <li><a class="main-footer__link" href="#"><span class="fa fa-phone" aria-hidden="true"> </span>06 17 08 79 21</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul class="main-footer__contacts"> 
+              <li><a class="main-footer__link" href="https://github.com/Jakovich"><span class="fa fa-github" aria-hidden="true"> </span>https://github.com/Jakovich</a></li>
+              <li><span class="main-footer__link" href="#"><span class="fa fa-skype" aria-hidden="true"> </span>Nadège Pillard (ua9ond)</span></li>
             </ul>
           </div>
         </div>
