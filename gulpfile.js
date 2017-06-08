@@ -158,10 +158,6 @@ gulp.task("copy-vendor", function() {
     gulp.src("css/**/*")
         .pipe(copy())
         .pipe(gulp.dest("build/css"));
-    gulp.src("docs/**/*")
-        .pipe(copy())
-        .pipe(gulp.dest("build/docs"));
-
 });
 
 gulp.task("copy-fonts", function() {
