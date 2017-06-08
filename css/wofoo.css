@@ -2,6 +2,10 @@
     font-family: 'Scada', Arial, sans-serif;
 }
 
+.embed form, .embed body {
+  padding: 3px;
+}
+
 .wufoo input.text, .wufoo textarea.textarea {
     padding: 10px;
     box-shadow: none;
@@ -42,6 +46,7 @@ form.wufoo ul {
     font-size: 20px;
     transition: all 0.3s ease;
     cursor: pointer;
+    border-radius: 4px;
 }
 
 #saveForm:hover {
@@ -81,4 +86,8 @@ form.wufoo ul {
 
 .wufoo .buttons a {
   opacity: 0;
+}
+
+#errorLi, .error-container {
+  margin-top: -10px;
 }
