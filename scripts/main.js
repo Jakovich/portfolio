@@ -1,14 +1,7 @@
 $(document).ready(function(){
+  var mainHeader = $('.main-header');
   $(window).scroll(function(){
-    if ($(this).scrollTop() > $('#intro').innerHeight()) {
-      $('.main-header').addClass('main-header--dark');
-      /*$( ".main-header" ).animate({
-        backgroundColor: '#2B3037',
-        color: '#ffffff'
-      }, 300)*/
-    } else {
-      $('.main-header').removeClass('main-header--dark');
-    }
+    $(this).scrollTop() > $('#intro').innerHeight() ? mainHeader.addClass('main-header--dark', 'fast') :  mainHeader.removeClass('main-header--dark', 'fast');
 
   });
 })

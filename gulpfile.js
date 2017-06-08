@@ -152,9 +152,16 @@ gulp.task("copy-vendor", function() {
     gulp.src("bower_components/jquery/dist/jquery.min.js")
         .pipe(copy())
         .pipe(gulp.dest("build/vendor/jquery"));
+    gulp.src("bower_components/jquery-ui/jquery-ui.min.js")
+        .pipe(copy())
+        .pipe(gulp.dest("build/vendor/jquery"));
     gulp.src("css/**/*")
         .pipe(copy())
         .pipe(gulp.dest("build/css"));
+    gulp.src("docs/**/*")
+        .pipe(copy())
+        .pipe(gulp.dest("build/docs"));
+
 });
 
 gulp.task("copy-fonts", function() {
@@ -177,9 +184,9 @@ gulp.task("min-js", function() {
 
 gulp.task("clean", function() {
     return gulp.src("build", {
-            read: false
-        })
-        .pipe(clean());
+      read: false
+    })
+    .pipe(clean());
 });
 
 

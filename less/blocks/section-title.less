@@ -1,0 +1,29 @@
+.section-title {
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+  margin: 20px 0;
+  margin-top: 45px;
+  &::after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    left: 35%;
+    right: 35%;
+    bottom: -10px;
+    background-color: @orange;
+  }
+}
+
+.section-title--dark {
+  color: #000000;
+}
+
+.section-title--big {
+  font-size: 40px;
+  margin-bottom: 80px;
+  &::after {
+    left: 15%;
+    right: 15%;
+  }
+}

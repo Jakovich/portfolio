@@ -3,7 +3,7 @@
   top:0;
   left:0;
   right: 0;
-  z-index: 10;
+  z-index: 20;
   padding: 5px 0;
 }
 
@@ -34,4 +34,12 @@
 
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #000000;
+}
+@media (max-width:1200px) {
+  .main-header{
+    background-color: gray;
+  }
+  .main-header--dark {
+    background-color: @gray;
+  }
 }
