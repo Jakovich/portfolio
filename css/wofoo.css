@@ -60,6 +60,7 @@ form.wufoo ul {
     margin-top: 40px;
     position: relative;
     margin-bottom: 20px;
+    font-size:30px;
 }
 
 .wufoo .info h2::after {
@@ -90,4 +91,5 @@ form.wufoo ul {
 
 #errorLi, .error-container {
   margin-top: -10px;
+  display: none;
 }
