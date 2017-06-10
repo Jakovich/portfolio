@@ -7,5 +7,5 @@ Thumbs.db
 pixel_perfect/
 maket/
 bower_components/
-build
-/
+build/
+.publish/
