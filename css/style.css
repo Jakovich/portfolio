@@ -450,11 +450,12 @@ img {
 .about__text {
   text-align: center;
   font-size: 18px;
-  margin-top: 30px;
+  margin-top: 60px;
   margin-bottom: 30px;
 }
 .projects {
-  padding: 50px 0;
+  padding-top: 10px;
+  padding-bottom: 50px;
   background-color: #f1f1f1;
 }
 .projects__title {
@@ -463,11 +464,30 @@ img {
 }
 .projects__name {
   margin-top: 0;
+  color: #e36c0a;
+  font-size: 35px;
+}
+.project__list {
+  padding: 0;
+  margin: 0 20px;
 }
 .projects__item {
   margin-bottom: 60px;
   border-bottom: 3px solid #2B3037;
   padding-bottom: 20px;
+}
+.projects__item h3 {
+  margin: 10px 0;
+  font-weight: normal;
+}
+.projects__date {
+  font-style: italic;
+}
+.project__descr {
+  font-size: 16px;
+}
+.projects__btns {
+  margin-top: 20px;
 }
 .projects__btn {
   display: block;
@@ -599,6 +619,7 @@ p.carousel-inner__caption a:hover {
 .section-title--big {
   font-size: 40px;
   margin-bottom: 80px;
+  margin-top: 30px;
 }
 .section-title--big::after {
   left: 15%;
