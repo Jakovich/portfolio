@@ -510,7 +510,8 @@ img {
       transform: translateY(-50%);
   right: 12px;
 }
-.projects__btn:hover {
+.projects__btn:hover,
+.projects__btn:focus {
   background-color: #ffffff;
   color: #2B3037;
   text-decoration: none;
