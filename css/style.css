@@ -471,6 +471,9 @@ img {
   padding: 0;
   margin: 0 20px;
 }
+.projects__img {
+  margin-bottom: 20px;
+}
 .projects__item {
   margin-bottom: 60px;
   border-bottom: 3px solid #2B3037;
