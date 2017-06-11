@@ -29,8 +29,8 @@
       "date": "2016",
       "descr": "Modification d'une page (Bootstrap) et d'une application JS déjà existantes conformément aux exigences du client, intégration de ces deux composants.",
       "technics": ["HTML5", "CSS", "JS/jQuery (POO)", "GIT"],
-      "pageLink":"https://jakovich.github.io/Jakovich/constructor.git",
-      "sourceLink":"https://github.com/Jakovich/constructor.git",
+      "pageLink":"https://jakovich.github.io/constructor-site",
+      "sourceLink":"https://github.com/Jakovich/constructor-site",
       "count" : "1"
     },
     {
