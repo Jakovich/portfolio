@@ -1,0 +1,20 @@
+template(id="project-template" style="display: none")
+  .projects__item
+    .row
+      div(class="col-md-5")
+        .projects__img
+          img(src="" alt="")
+      div(class="col-md-7")
+        h2.projects__name
+        p.projects__date
+        p.project__descr
+        h3
+          |Technologies utilisées
+        ul.project__list
+        div(class="projects__btns")
+          a.projects__btn(href="#" target="_blank" data-value="pageLink")
+            |Voir les pages
+            i(class="glyphicon glyphicon-menu-right")
+          a.projects__btn(href="#" target="_blank" data-value="sourceLink")
+            |Voir le code source
+            i(class="glyphicon glyphicon-menu-right")

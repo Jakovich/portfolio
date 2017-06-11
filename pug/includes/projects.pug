@@ -11,7 +11,7 @@ section.projects(id="projects")
         
         .col-md-7
           h2.projects__name
-            | Piter excursion
+            | Site d'organisation d'excursions à Saint-Pétersbourg 
           p.projects__date
             | 2017
           p.project__descr
@@ -35,9 +35,12 @@ section.projects(id="projects")
               i(class="glyphicon glyphicon-menu-right")
     .projects__item
       .row
-        .col-md-7
+        div(class="col-md-5 col-sm-push-7")
+          .projects__img
+            img(src="img/partajon.jpg" alt="Partajon Delf Dalf")
+        div(class="col-md-7 col-sm-pull-5")
           h2.projects__name
-            | Site Partajon 
+            | Site de préparations aux examens de Français Langue Etrangère "Partajon" 
           p.projects__date
             | 2017
           p.project__descr
@@ -54,17 +57,14 @@ section.projects(id="projects")
             a.projects__btn(href="http://partajondelfdalf.com" target="_blank")
               |Voir le site
               i(class="glyphicon glyphicon-menu-right")
-        .col-md-5
-          .projects__img
-            img(src="img/partajon.jpg" alt="Partajon Delf Dalf")
     .projects__item
       .row
-        .col-md-5
+        div(class="col-md-5")
           .projects__img
             img(src="img/carmart.jpg" alt="Carmarket checkout")
-        .col-md-7
+        div(class="col-md-7")
           h2.projects__name
-            | Carmarket checkout 
+            | Partie du site de vente d'automobile "Carmart". 
           p.projects__date
             | 2017
           p.project__descr
@@ -88,9 +88,12 @@ section.projects(id="projects")
               i(class="glyphicon glyphicon-menu-right")
     .projects__item
       .row
-        .col-md-7
+        div(class="col-md-5 col-md-push-7")
+          .projects__img
+            img(src="img/web-vente.jpg" alt="Web vente")
+        div(class="col-md-7 col-md-pull-5")
           h2.projects__name
-            | Agence de vente d'entreprises
+            | Site d'une agence de vente d'entreprises
           p.projects__date
             | 2017
           p.project__descr
@@ -112,17 +115,14 @@ section.projects(id="projects")
             a.projects__btn(href="https://github.com/Jakovich/web-vente" target="_blank")
               |Voir le code source
               i(class="glyphicon glyphicon-menu-right")      
-        .col-md-5
-          .projects__img
-            img(src="img/web-vente.jpg" alt="Web vente")
     .projects__item
       .row
-        .col-md-5
+        div(class="col-md-5")
           .projects__img
             img(src="img/park.jpg" alt="Park")
-        .col-md-7
+        div(class="col-md-7")
           h2.projects__name
-            | Park
+            | Site d'un parc national
           p.projects__date
             | 2017
           p.project__descr
@@ -143,7 +143,10 @@ section.projects(id="projects")
               i(class="glyphicon glyphicon-menu-right")
     .projects__item
       .row
-        .col-md-7
+        div(class="col-md-5 col-md-push-7")
+          .projects__img
+            img(src="img/email.jpg" alt="Email adaptive")
+        div(class="col-md-7 col-md-pull-5")
           h2.projects__name
             | Responsive e-mails
           p.projects__date
@@ -164,17 +167,14 @@ section.projects(id="projects")
             a.projects__btn(href="https://github.com/Jakovich/Carmart-email-11.02.16-order-saved" target="_blank")
               |Voir le code source
               i(class="glyphicon glyphicon-menu-right")
-        .col-md-5
-          .projects__img
-            img(src="img/email.jpg" alt="Email adaptive")
     .projects__item
       .row
-        .col-md-5
+        div(class="col-md-5")
           .projects__img
             img(src="img/your-menu.jpg" alt="Your Menu")
-        .col-md-7
+        div(class="col-md-7")
           h2.projects__name
-            | Ton menu
+            | Site d'e-commerce de livraison de repas "Ton menu"
           p.projects__date
             | 2016
           p.project__descr
@@ -194,9 +194,12 @@ section.projects(id="projects")
             a.projects__btn(href="https://github.com/Jakovich/your_menu" target="_blank")
               |Voir le code source
               i(class="glyphicon glyphicon-menu-right")
-    .projects__item
+    //.projects__item
       .row
-        .col-md-7
+        div(class="col-md-5 col-md-push-7")
+          .projects__img
+            img(src="img/carmart-offer.jpg" alt="Carmart offer")
+        div(class="col-md-7 col-md-pull-5")
           h2.projects__name
             | Landing page pour les propositions commerciales Carmart 
           p.projects__date
@@ -219,15 +222,12 @@ section.projects(id="projects")
             a.projects__btn(href="https://github.com/Jakovich/Carmart-offer/" target="_blank")
               |Voir le code source
               i(class="glyphicon glyphicon-menu-right")
-        .col-md-5
-          .projects__img
-            img(src="img/carmart-offer.jpg" alt="Carmart offer")
-    .projects__item
+    //.projects__item
       .row
-        .col-md-5
+        div(class="col-md-5")
           .projects__img
             img(src="img/carmart-retargeting.jpg" alt="Carmart retargeting")
-        .col-md-7
+        div(class="col-md-7")
           h2.projects__name
             | Landing page de redirection Carmart 
           p.projects__date
@@ -249,9 +249,12 @@ section.projects(id="projects")
             a.projects__btn(href="https://github.com/Jakovich/Maximum-retargeting/" target="_blank")
               |Voir le code source
               i(class="glyphicon glyphicon-menu-right")
-    .projects__item
+    //.projects__item
       .row
-        .col-md-7
+        div(class="col-md-5 col-md-push-7")
+          .projects__img
+            img(src="img/constructor.jpg" alt="Constructor")
+        div(class="col-md-7 col-md-pull-5")
           h2.projects__name
             | Logiciel de conception de vêtements 
           p.projects__date
@@ -266,21 +269,18 @@ section.projects(id="projects")
             li JS/jQuery (POO)
             li GIT
           div(class="projects__btns")
-            a.projects__btn(href="https://jakovich.github.io/Maximum-retargeting/" target="_blank")
+            a.projects__btn(href="https://jakovich.github.io/Maximum-retargeting/" target="_blank" data-value="pageLink")
               |Voir les pages
               i(class="glyphicon glyphicon-menu-right")
-            a.projects__btn(href="https://github.com/Jakovich/Maximum-retargeting/" target="_blank")
+            a.projects__btn(href="https://github.com/Jakovich/Maximum-retargeting/" target="_blank") 
               |Voir le code source
               i(class="glyphicon glyphicon-menu-right")
-        .col-md-5
-          .projects__img
-            img(src="img/constructor.jpg" alt="Constructor")
-    .projects__item
+    //.projects__item
       .row
-        .col-md-5
+        div(class="col-md-5")
           .projects__img
             img(src="img/remontstroy.jpg" alt="Remontstroy")
-        .col-md-7
+        div(class="col-md-7")
           h2.projects__name
             | Site de l'enteprise de travaux Remontstroy
           p.projects__date
@@ -303,9 +303,12 @@ section.projects(id="projects")
             a.projects__btn(href="https://github.com/Jakovich/Remontstroy/" target="_blank")
               |Voir le code source
               i(class="glyphicon glyphicon-menu-right")
-    .projects__item
+    //.projects__item
       .row
-        .col-md-7
+        div(class="col-md-5 col-md-push-7")
+          .projects__img
+            img(src="img/Top-event.jpg" alt="Top event")
+        div(class="col-md-7 col-md-pull-5")
           h2.projects__name
             | Site de l'agence d'organisation de mariages Top-Event
           p.projects__date
@@ -328,15 +331,12 @@ section.projects(id="projects")
             a.projects__btn(href="https://github.com/Jakovich/Top-Event/" target="_blank")
               |Voir le code source
               i(class="glyphicon glyphicon-menu-right")
-        .col-md-5
-          .projects__img
-            img(src="img/Top-event.jpg" alt="Top event")
-    .projects__item
+    //.projects__item
       .row
-        .col-md-5
+        div(class="col-md-5")
           .projects__img
             img(src="img/sedona.jpg" alt="Carmart retargeting")
-        .col-md-7
+        div(class="col-md-7")
           h2.projects__name
             | Projet d'étude Sedona
           p.projects__date
@@ -360,9 +360,12 @@ section.projects(id="projects")
             a.projects__btn(href="https://github.com/Jakovich/124821-sedona/" target="_blank")
               |Voir le code source
               i(class="glyphicon glyphicon-menu-right")
-    .projects__item
+    //.projects__item
       .row
-        .col-md-7
+        div(class="col-md-5 col-md-push-7")
+          .projects__img
+            img(src="img/FK-Zolotoy.jpg" alt="FK Zolotoy")
+        div(class="col-md-7 col-md-pull-5")
           h2.projects__name
             | Site de Club de football
           p.projects__date
@@ -383,15 +386,12 @@ section.projects(id="projects")
             a.projects__btn(href="https://github.com/Jakovich/FK-Zolotoy/" target="_blank")
               |Voir le code source
               i(class="glyphicon glyphicon-menu-right")
-        .col-md-5
-          .projects__img
-            img(src="img/FK-Zolotoy.jpg" alt="FK Zolotoy")
     .projects__item
       .row
-        .col-md-5
+        div(class="col-md-5")
           .projects__img
             img(src="img/Carmart-loto.jpg" alt="Carmart retargeting")
-        .col-md-7
+        div(class="col-md-7")
           h2.projects__name
             | Landing page d'actione promotionelle Carmart
           p.projects__date
@@ -414,7 +414,7 @@ section.projects(id="projects")
               |Voir le code source
               i(class="glyphicon glyphicon-menu-right")
 
-    button(class="projects__btn projects__btn--show")
+    button(class="projects__btn projects__btn--show" data-value="show-more")
       | Voir tout les projets
 
                 

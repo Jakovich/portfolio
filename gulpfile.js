@@ -161,6 +161,9 @@ gulp.task("copy-vendor", function() {
     gulp.src("favicon.ico")
         .pipe(copy())
         .pipe(gulp.dest("build/"));
+    gulp.src("assets/**/*")
+        .pipe(copy())
+        .pipe(gulp.dest("build/assets/"));
 });
 
 gulp.task("copy-fonts", function() {
