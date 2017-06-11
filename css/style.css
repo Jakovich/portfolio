@@ -544,7 +544,7 @@ p.carousel-inner__caption a {
 }
 p.carousel-inner__caption a:hover {
   text-decoration: none;
-  opacity: 0.8;
+  color: #e36c0a;
 }
 .carousel-control.left,
 .carousel-control.right {
@@ -559,7 +559,7 @@ p.carousel-inner__caption a:hover {
 }
 .carousel-caption a:hover {
   text-decoration: none;
-  opacity: 0.8;
+  color: 0.8;
 }
 .carousel-control span.glyphicon {
   position: absolute;
