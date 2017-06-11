@@ -60,7 +60,7 @@
       "name": "Projet d'étude Sedona",
       "date": "2016",
       "descr": "Projet de fin d'études, HTML Academy, niveau avancé intensif HTML et CSS. Création de pages HTML/CSS/JS à partir de maquettes graphiques faites dans Adobe Photoshop.",
-      "technics": ["HTML5", "LESS", "GRUNT", "BEM", "JS/jQuery", "Responsive Design (CSS3 Media Queries)", "GIT"],
+      "technics": ["HTML5", "LESS", "GRUNT", "BEM", "JS/jQuery", "Responsive Design (CSS3 Media Queries)", "GIT", "API Google.map"],
       "pageLink":"https://jakovich.github.io/124821-sedona/",
       "sourceLink":"https://github.com/Jakovich/124821-sedona/"
     },
