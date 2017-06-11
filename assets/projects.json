@@ -6,7 +6,7 @@
       "name": "Landing page pour les propositions commerciales Carmart",
       "date": "2016",
       "descr": " Création d'une page HTML/CSS/JS à partir de maquettes graphiques faites dans Adobe Photoshop. Développement cross-browser de la page en respectant les standards du Web (W3C). Pixelperfect. Réalisation du front-end JS, images sprite, intégration de différents plug-ins.",
-      "technics": ["HTML5", "Less", "jQuery", "GULP", "GIT", "API Youtube"],
+      "technics": ["HTML5", "Less", "jQuery", "GULP", "GIT","BEM","API Youtube"],
       "pageLink": "https://jakovich.github.io/Carmart-offer/",
       "sourceLink": "https://github.com/Jakovich/Carmart-offer/",
       "count" : "1"
@@ -17,7 +17,7 @@
       "name": "Landing page de redirection Carmart",
       "date": "2016",
       "descr": "Création d'une page HTML/CSS/JS à partir de maquettes graphiques faites dans Adobe Photoshop. Pixelperfect. Rédaction d'un script JS modifiant la structure de la section intro en fonction des paramètres de requêtes (par exemple - index.html?mark=honda ou index.html?mark=ford ou encore index.html?mark=mitsubishi, etc.).",
-      "technics": ["HTML5", "Less", "Gulp", "JS/jQuery", "GIT"],
+      "technics": ["HTML5", "Less", "Gulp", "BEM", "JS/jQuery", "GIT"],
       "pageLink":"https://jakovich.github.io/Maximum-retargeting/",
       "sourceLink":"https://github.com/Jakovich/Maximum-retargeting/",
       "count" : "1"
@@ -39,7 +39,7 @@
       "name": "Site de l'entreprise de travaux Remontstroï",
       "date": "2016",
       "descr": "Création de pages HTML/CSS/JS à partir de maquettes graphiques faites dans Adobe Photoshop : 6 pages uniques. Conception et réalisation d'un design responsive : 750px - 1600px (CSS3 Media Queries) et compatible avec IE8. Développement cross-browser des pages en respectant les standards du Web (W3C). Pixelperfect. Réalisation du front-end JS, images sprites, validation des formulaires, intégration de différents plug-ins.",
-      "technics": ["HTML5", "LESS", "GULP", "JS/jQuery", "GIT", "API Yandex.map"],
+      "technics": ["HTML5", "LESS", "GULP", "JS/jQuery","BEM", "GIT", "API Yandex.map"],
       "pageLink":"https://jakovich.github.io/Remontstroy/",
       "sourceLink":"https://github.com/Jakovich/Remontstroy/"
     },
@@ -49,7 +49,7 @@
       "name": "Site de l'agence d'organisation de mariages Top-Event",
       "date": "2016",
       "descr": "Création de pages HTML/CSS/JS à partir de maquettes graphiques faites dans Adobe Photoshop. Conception et réalisation d'un design responsive (1024px - 1800px). Intégration de différents plug-ins. Validation des formulaires.",
-      "technics": ["HTML5", "LESS", "GULP", "JS/jQuery", "Responsive Design (CSS3 Media Queries)", "GIT"],
+      "technics": ["HTML5", "LESS", "GULP", "JS/jQuery", "BEM", "Responsive Design (CSS3 Media Queries)", "GIT"],
       "pageLink":"http://top-event.su/",
       "sourceLink":"https://github.com/Jakovich/Top-Event/",
       "count" : "1"
